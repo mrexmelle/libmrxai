@@ -2,7 +2,7 @@
 INSTALL_LIB_PATH=$(ROOT_PATH)/usr/local/lib
 INSTALL_INC_PATH=$(ROOT_PATH)/usr/local/include/mrx/ai
 PROJECT=mrxai
-VERSION=0.0.1
+VERSION=0.1.0
 
 #compiler
 CXX = g++
