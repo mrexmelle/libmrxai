@@ -2,6 +2,7 @@
 #include <math.h>
 #include <stdio.h>
 #include "annfunc.h"
+#include "annnode.h"
 #include "anntraining.h"
 
 void anntraining_forward_propagate(SAnnArch * aArch)

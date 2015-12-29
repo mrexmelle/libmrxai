@@ -333,7 +333,8 @@ int bpncpt_id_mask_in_list(SBpnCpt * aCpt, unsigned short aId, unsigned int * aM
 
 int bpncpt__id_status_in_table_index(SBpnCpt * aCpt, unsigned short aId, unsigned int aTableIndex)
 {
-	int mask, status;
+	unsigned int mask;
+	int status;
 
 	// get mask of queried id
 	status=bpncpt_id_mask_in_list(aCpt, aId, &mask);

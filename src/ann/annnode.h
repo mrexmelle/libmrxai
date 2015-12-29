@@ -22,8 +22,8 @@ extern "C"
 {
 #endif // __cplusplus
 
-extern void ann_node_activate(SAnnNode * aNode);
-extern void ann_node_backward_activate(SAnnNode * aNode);
+extern void annnode_activate(SAnnNode * aNode);
+extern void annnode_backward_activate(SAnnNode * aNode);
 
 #ifdef __cplusplus
 }

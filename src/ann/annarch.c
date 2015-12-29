@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include "annarch.h"
+#include "anntraining.h"
 
 #define KMaxSignedShort	0x7FFF
 
