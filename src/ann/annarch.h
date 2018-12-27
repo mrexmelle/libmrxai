@@ -20,7 +20,6 @@ typedef struct
 	double * iBiasDeltaList[2];
 	double iAlpha;
 	double iError;
-
 } SAnnArch;
 
 #pragma pack(pop)
